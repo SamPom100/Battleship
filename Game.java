@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 public class Game
 {
-    public static void main()
+    public static void main(String[] args)
     {
         int choice = Integer.parseInt(JOptionPane.showInputDialog("Which Game Mode?\n\n                        CPU + GUI = 1 \n                        CPU = 2 \n                        PvP = 3\n\n"));
         if(choice == 1)
